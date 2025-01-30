@@ -27,9 +27,11 @@ public class UserModel {
   private UUID id;
   private String username;
   private String name;
+  private String password;
   private String avatar;
   private String bio;
   private Long followerCount;
   private Long followingCount;
   private Boolean verified;
 }
+
