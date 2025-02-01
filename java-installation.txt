@@ -1,0 +1,21 @@
+Steps to Install Java
+
+Step 1: Download the JDK
+Visit the Official Website: Go to the Oracle JDK download page or OpenJDK for open-source versions.
+Select the JDK Version: Choose the version of the JDK you wish to install. The latest stable version is recommended.
+Choose the Installer: Download the installer compatible with your operating system (Windows, macOS, or Linux).
+
+Step 2: Install the JDK
+Windows:
+1).Run the Installer: Double-click the downloaded .exe file.
+2).Follow the Installation Wizard: Proceed through the installation wizard, accepting the default settings or customizing as needed.
+3).Set Environment Variables:
+
+A).Open the System Properties by right-clicking on 'This PC' and selecting 'Properties'.
+B).Click on 'Advanced system settings' and then 'Environment Variables'.
+C).Under 'System variables', click 'New' and add JAVA_HOME with the path to the JDK installation directory.
+D).Edit the 'Path' variable and add %JAVA_HOME%\bin.
+
+Step 3: Verify the Installation
+Open Command Prompt/Terminal.
+type -> java -version
